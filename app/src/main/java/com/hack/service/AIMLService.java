@@ -7,12 +7,11 @@ import org.alicebot.ab.Chat;
 import org.alicebot.ab.History;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
-import org.alicebot.ab.utils.IOUtils;
 
 @Service
 public class AIMLService {
     private static final boolean TRACE_MODE = false;
-    static String botName = "super";
+    static String botName = "bot";
 
     public String bot(String textLine) {
         try {
@@ -20,7 +19,7 @@ public class AIMLService {
             String resourcesPath = getResourcesPath();
             System.out.println(resourcesPath);
             MagicBooleans.trace_mode = TRACE_MODE;
-            Bot bot = new Bot("super", resourcesPath);
+            Bot bot = new Bot("bot", resourcesPath);
             Chat chatSession = new Chat(bot);
             bot.brain.nodeStats();
 
@@ -53,7 +52,7 @@ public class AIMLService {
         String path = currDir.getAbsolutePath();
         path = path.substring(0, path.length() - 2);
         System.out.println(path);
-        String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
+        String resourcesPath = path + File.separator + "app" + File.separator + "src" + File.separator + "main" + File.separator + "resources";
         return resourcesPath;
     }
 }
