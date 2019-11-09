@@ -1,5 +1,6 @@
 package com.hack.rest;
 
+import com.hack.service.AIMLService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,8 +17,8 @@ import javax.validation.Valid;
 public class ComunicationRest {
 
     @PostMapping("/answer")
-    public void getAnswer(@Valid @RequestBody String question) {
-        String answer = question + "ahoj";
+    public String getAnswer(@Valid @RequestBody String question) {
+        AIMLService aimlService = new AIMLService();
+        return aimlService.bot(question);
     }
-
 }

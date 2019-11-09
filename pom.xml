@@ -31,6 +31,10 @@
 				<version>${project.version}</version>
 			</dependency>
 			<!-- 3rd part -->
+
+
+
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter</artifactId>
@@ -83,10 +87,11 @@
 				<groupId>Ab</groupId>
 				<version>0.0.4.3</version>
 				<scope>system</scope>
-				<systemPath>${basedir}/src/main/resources/lib/Ab.jar</systemPath>
+				<systemPath>${basedir}/lib/Ab.jar</systemPath>
 
 			</dependency>
 		</dependencies>
+
 
 	</dependencyManagement>
 
