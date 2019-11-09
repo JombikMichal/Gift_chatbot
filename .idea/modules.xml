@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Gift_chatbot.iml" filepath="$PROJECT_DIR$/.idea/Gift_chatbot.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat-bot-app/chat-bot-app.iml" filepath="$PROJECT_DIR$/chat-bot-app/chat-bot-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat-bot-app/chat-bot-impl/chat-bot-impl.iml" filepath="$PROJECT_DIR$/chat-bot-app/chat-bot-impl/chat-bot-impl.iml" />
     </modules>
   </component>
 </project>
