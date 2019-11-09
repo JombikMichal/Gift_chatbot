@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Angular/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/Angular/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/AngularChat/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/AngularChat/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/angular-chatroom/client/dist" />
       <excludeFolder url="file://$MODULE_DIR$/angular-chatroom/client/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/client/dist" />
