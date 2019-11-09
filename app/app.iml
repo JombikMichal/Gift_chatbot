@@ -84,5 +84,14 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.h2database:h2:1.4.198" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: Ab:com.google:0.0.4.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/resources/lib/Ab.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
