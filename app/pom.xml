@@ -14,7 +14,8 @@
     <dependencies>
         <dependency>
             <groupId>com.hack</groupId>
-            <artifactId>chat-bot-impl</artifactId>
+            <artifactId>chat-bot-app</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

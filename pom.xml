@@ -12,7 +12,7 @@
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>gift-chack-bot</name>
+	<name>gift-chat-bot</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -23,11 +23,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- App -->
-		<dependency>
-			<groupId>com.hack</groupId>
-			<artifactId>${project.version}</artifactId>
-		</dependency>
 
 		<!-- 3rd part -->
 		<dependency>

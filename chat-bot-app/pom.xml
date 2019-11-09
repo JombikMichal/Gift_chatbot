@@ -9,9 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <modules>
+        <module>chat-bot-impl</module>
+    </modules>
 
     <artifactId>chat-bot-app</artifactId>
-
+    <packaging>pom</packaging>
 
 
 </project>

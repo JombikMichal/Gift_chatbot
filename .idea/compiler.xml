@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chat-bot-app" />
         <module name="app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app" target="1.5" />
       <module name="chat-bot-app" target="1.5" />
+      <module name="chat-bot-impl" target="1.5" />
       <module name="Gift_chatbot" target="1.5" />
     </bytecodeTargetLevel>
   </component>
