@@ -1,4 +1,5 @@
-package com.hack.rest;
-
-public class ComunicationRest {
-}
+//package com.hack.rest;
+//
+//@RestCo
+//public class ComunicationRest {
+//}
