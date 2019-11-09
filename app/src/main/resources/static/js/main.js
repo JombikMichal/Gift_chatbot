@@ -62,11 +62,30 @@ function sendMessage(event) {
             type: 'CHAT'
         };
 
-        stompClient.send("/app/chat.sendMessage", {}, JSON.stringify(chatMessage));
+        stompClient.send("/app/chat.sendMessage", {}, JSON.stringify(chatMessage))
+        sendMessageRobot()
         messageInput.value = '';
     }
     event.preventDefault();
 }
+
+function sendMessageRobot() {
+    var messageContent = messageInput.value.trim();
+
+    if(messageContent && stompClient) {
+        var chatMessage = {
+            sender: username,
+            content: messageInput.value,
+            type: 'CHAT'
+        };
+
+        stompClient.send("/app/chat.sendMessageRobot", {}, JSON.stringify(chatMessage))
+
+        messageInput.value = '';
+    }
+    event.preventDefault();
+}
+
 
 
 function onMessageReceived(payload) {

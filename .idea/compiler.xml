@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app" target="6" />
+      <module name="app" target="1.5" />
       <module name="chat-bot-app" target="1.5" />
       <module name="chat-bot-impl" target="1.5" />
       <module name="Gift_chatbot" target="1.5" />
