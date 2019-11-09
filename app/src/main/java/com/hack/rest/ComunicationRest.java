@@ -1,5 +1,22 @@
-//package com.hack.rest;
-//
-//@RestCo
-//public class ComunicationRest {
-//}
+package com.hack.rest;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.validation.Valid;
+
+@RestController
+@RequestMapping("/gift-chat-bot")
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+public class ComunicationRest {
+
+    @PostMapping("/answer")
+    public void getAnswer(@Valid @RequestBody String question) {
+        String answer = question + "ahoj";
+    }
+
+}
