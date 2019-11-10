@@ -1,0 +1,5 @@
+0,GENDER,*,SHOES,Which kind of occassion you want to use this boots?,shoes.aiml
+0,MAN,*,SHOES,<think><set name="gender">man</set></think>#Newline          <srai>gender</srai>,shoes.aiml
+0,WOMAN,*,SHOES,<srai>gender</srai>#Newline          <think><set name="gender">woman</set></think>,shoes.aiml
+0,KID,*,SHOES,<think><set name="gender">kid</set></think>#Newline          <srai>gender</srai>,shoes.aiml
+0,WORK,*,SHOES,<get name="gender"/>,shoes.aiml

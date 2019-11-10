@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<topic name = "shoes">
+   <category>
+      <pattern>gender</pattern>
+      <template>
+          Which kind of occassion you want to use this boots?
+      </template>
+   </category>
+   <category>
+      <pattern>man</pattern><template>
+          <think><set name="gender">man</set></think>
+          <srai>gender</srai></template>
+   </category>
+   <category>
+      <pattern>woman</pattern><template>
+          <srai>gender</srai>
+          <think><set name="gender">woman</set></think>
+          </template>
+
+
+   </category>
+   <category>
+      <pattern>kid</pattern><template>
+          <think><set name="gender">kid</set></think>
+          <srai>gender</srai></template>
+   </category>
+
+   <category>
+      <pattern>work</pattern><template><get name="gender"/></template>
+   </category>
+</topic>
+</aiml>

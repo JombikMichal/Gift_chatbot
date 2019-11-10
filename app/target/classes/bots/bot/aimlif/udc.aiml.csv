@@ -1,0 +1,23 @@
+0,HELP,*,*,Can I help you with choosing a gift for some body?,udc.aiml
+0,GOOD EVENING,*,*,<srai>Help</srai>,udc.aiml
+0,GOOD MORNING,*,*,<srai>Help</srai>,udc.aiml
+0,HALLO,*,*,<srai>Help</srai>,udc.aiml
+0,HI CAN I HELP YOU,*,*,<srai>Help</srai>,udc.aiml
+0,AGREEMENT,CAN I HELP YOU WITH CHOOSING A GIFT FOR SOME BODY ^,*,Which category would you like to explore?,udc.aiml
+0,YES*,*,*,<srai>agreement</srai>,udc.aiml
+0,YES^,*,*,<srai>agreement</srai>,udc.aiml
+0,UNKNOWN,WHICH CATEGORY WOULD YOU LIKE TO EXPLORE ^,*,I can offer you someone of these categories :#Newline<ol>#Newline    <li>clothes</li>#Newline    <li>games</li>#Newline    <li>shoes</li>#Newline    <li>sports</li>#Newline    <li>arts</li>#Newline    <li>jewellery</li>#Newline    <li>food</li>#Newline    <li>flowers</li>#Newline    <li>adventure</li>#Newline</ol>,udc.aiml
+0,WHATEVER,*,*,<srai>unknown</srai>,udc.aiml
+0,ANY,*,*,<srai>unknown</srai>,udc.aiml
+0,ANYTHING,*,*,<srai>unknown</srai>,udc.aiml
+0,I DON'T KNOW,*,*,<srai>unknown</srai>,udc.aiml
+0,I DO NOT KNOW,*,*,<srai>unknown</srai>,udc.aiml
+0,CLOTHESCATEGORY,*,*,<think><set name="topic">clothes</set></think>Is it for man#Comma woman or kid?,udc.aiml
+0,1*,*,*,<srai>clothescategory</srai>,udc.aiml
+0,CLOTHES,*,*,<srai>clothescategory</srai>,udc.aiml
+0,1,*,*,<srai>clothescategory</srai>,udc.aiml
+0,SHOESCATEGORY,*,*,<think><set name="topic">shoes</set></think>Is it for man#Comma woman or kid?,udc.aiml
+0,3*,*,*,<srai>shoescategory</srai>,udc.aiml
+0,SHOES,*,*,<srai>shoescategory</srai>,udc.aiml
+0,BOOTS,*,*,<srai>shoescategory</srai>,udc.aiml
+0,3,*,*,<srai>shoescategory</srai>,udc.aiml

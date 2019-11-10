@@ -1,0 +1,13 @@
+0,GENDER,*,CLOTHES,Which kind of occassion is it for?,clothes.aiml
+0,MANCATEGORY,*,CLOTHES,<think><set name="gender">man</set></think>#Newline          <srai>gender</srai>,clothes.aiml
+0,MAN,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,MALE,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,MEN,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,WOMAN,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,WOMEN,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,FEMALE,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,KID,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,KIDS,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,CHILDREN,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,CHILD,*,CLOTHES,<srai>ManCategory</srai>,clothes.aiml
+0,WORK,*,CLOTHES,<get name="gender"/>,clothes.aiml

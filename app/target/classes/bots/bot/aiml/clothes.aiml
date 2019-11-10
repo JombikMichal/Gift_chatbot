@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<topic name = "clothes">
+   <category>
+      <pattern>gender</pattern>
+      <template>
+          Which kind of occassion is it for?
+      </template>
+   </category>
+
+   <category>
+      <pattern>ManCategory</pattern>
+      <template>
+          <think><set name="gender">man</set></think>
+          <srai>gender</srai>
+      </template>
+   </category>
+   <category><pattern>MAN</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>MALE</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>MEN</pattern><template><srai>ManCategory</srai></template></category>
+
+   <category>
+      <pattern>woman</pattern>
+      <template>
+          <think><set name="gender">woman</set></think>
+          <srai>gender</srai>
+      </template>
+   </category>
+   <category><pattern>WOMAN</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>WOMEN</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>FEMALE</pattern><template><srai>ManCategory</srai></template></category>
+
+   <category>
+      <pattern>kid</pattern>
+      <template>
+         <think><set name="gender">kid</set></think>
+          <srai>gender</srai>
+      </template>
+   </category>
+   <category><pattern>KID</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>KIDS</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>CHILDREN</pattern><template><srai>ManCategory</srai></template></category>
+   <category><pattern>CHILD</pattern><template><srai>ManCategory</srai></template></category>
+
+   <category>
+      <pattern>work</pattern><template><get name="gender"/></template>
+   </category>
+</topic>
+</aiml>
