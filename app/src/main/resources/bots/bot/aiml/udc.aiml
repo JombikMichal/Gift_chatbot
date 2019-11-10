@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <category>
     <pattern>Help</pattern>
-    <template>Can I help you with choosing a gift for some body?</template>
+    <template>Can I help you with choosing a gift for some body</template>
   </category>
 
 <category><pattern>Good Evening</pattern><template><srai>Help</srai></template></category>
@@ -19,16 +19,15 @@
 
 <category>
     <pattern>agreement</pattern>
-    <that>Can I help you with choosing a gift for some body ^</that>
+    <that>Can I help you with choosing a gift for some body</that>
     <template>Which category would you like to explore?</template>
 </category>
-<category><pattern>yes</pattern><template><srai>agreement</srai></template></category>
-<category><pattern>yes*</pattern><template><srai>agreement</srai></template></category>
-<category><pattern>yes^</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>aaano</pattern><template><srai>agreement</srai></template></category>
+
 
 <category>
     <pattern>unknown</pattern>
-    <that>Which category would you like to explore ^</that>
+    <that>Which category would you like to explore^</that>
     <template>I can offer you someone of these categories :
 <ol>
     <li>clothes</li>

@@ -1,13 +1,13 @@
-0,HELP,*,*,Can I help you with choosing a gift for some body?,udc.aiml
+0,HELP,*,*,Can I help you with choosing a gift for some body,udc.aiml
 0,GOOD EVENING,*,*,<srai>Help</srai>,udc.aiml
 0,GOOD MORNING,*,*,<srai>Help</srai>,udc.aiml
 0,HALLO,*,*,<srai>Help</srai>,udc.aiml
 0,HI CAN I HELP YOU,*,*,<srai>Help</srai>,udc.aiml
-0,AGREEMENT,CAN I HELP YOU WITH CHOOSING A GIFT FOR SOME BODY ^,*,Which category would you like to explore?,udc.aiml
-0,YES,*,*,<srai>agreement</srai>,udc.aiml
-0,YES*,*,*,<srai>agreement</srai>,udc.aiml
-0,YES^,*,*,<srai>agreement</srai>,udc.aiml
-0,UNKNOWN,WHICH CATEGORY WOULD YOU LIKE TO EXPLORE ^,*,I can offer you someone of these categories :#Newline<ol>#Newline    <li>clothes</li>#Newline    <li>games</li>#Newline    <li>shoes</li>#Newline    <li>sports</li>#Newline    <li>arts</li>#Newline    <li>jewellery</li>#Newline    <li>food</li>#Newline    <li>flowers</li>#Newline    <li>adventure</li>#Newline</ol>,udc.aiml
+0,III,CAN I HELP YOU WITH CHOOSING A GIFT FOR SOME BODY,*,aaaooo,udc.aiml
+0,AAA,*,*,<srai>iii</srai>,udc.aiml
+0,AGREEMENT,*,*,Which category would you like to explore?,udc.aiml
+0,AAANO,*,*,<srai>agreement</srai>,udc.aiml
+0,UNKNOWN,WHICH CATEGORY WOULD YOU LIKE TO EXPLORE^,*,I can offer you someone of these categories :#Newline<ol>#Newline    <li>clothes</li>#Newline    <li>games</li>#Newline    <li>shoes</li>#Newline    <li>sports</li>#Newline    <li>arts</li>#Newline    <li>jewellery</li>#Newline    <li>food</li>#Newline    <li>flowers</li>#Newline    <li>adventure</li>#Newline</ol>,udc.aiml
 0,WHATEVER,*,*,<srai>unknown</srai>,udc.aiml
 0,ANY,*,*,<srai>unknown</srai>,udc.aiml
 0,ANYTHING,*,*,<srai>unknown</srai>,udc.aiml
